@@ -6,3 +6,8 @@ https://github.com/wendelmarques/materiais-de-estudos-sobre-data-science-deep-ma
 inicio rápido antrópico
 
 https://github.com/anthropics/anthropic-quickstarts
+
+Faculdade:
+MBA:https://mbauspesalq.com/cursos/mba-em-data-science-e-analytics
+
+
