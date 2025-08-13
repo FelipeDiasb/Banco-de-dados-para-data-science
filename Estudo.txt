@@ -1,0 +1,8 @@
+Estudo de 
+
+https://github.com/wendelmarques/materiais-de-estudos-sobre-data-science-deep-machine-learning/blob/master/guia-de-estudos-ia.md
+
+
+inicio rápido antrópico
+
+https://github.com/anthropics/anthropic-quickstarts
