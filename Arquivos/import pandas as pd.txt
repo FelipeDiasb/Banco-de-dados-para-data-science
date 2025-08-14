@@ -1,0 +1,24 @@
+import pandas as pd
+import matplotlib.pyplot as plt  # Usando matplotlib para gráficos como exemplo
+
+# Consultar os dados
+listar_funcionarios = "SELECT * FROM funcionarios"
+df = pd.read_sql(listar_funcionarios, conexao)
+
+# Exibir gráfico de linha
+plt.figure(figsize=(10, 6))
+plt.plot(df['NOME'], df['SALARIO'], marker='o', linestyle='-', color='b')  # Gráfico de linha
+plt.title('Salário por Nome')
+plt.xlabel('Nome')
+plt.ylabel('Salário')
+plt.xticks(rotation=90)  # Para evitar sobreposição de nomes
+plt.show()
+
+# Exibir gráfico de barras
+plt.figure(figsize=(10, 6))
+plt.bar(df['NOME'], df['SALARIO'], color='g')  # Gráfico de barras
+plt.title('Salário por Nome')
+plt.xlabel('Nome')
+plt.ylabel('Salário')
+plt.xticks(rotation=90)  # Para evitar sobreposição de nomes
+plt.show()
